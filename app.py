@@ -131,11 +131,11 @@ if __name__ == "__main__":
     print("Model: Random Forest V2")
     print("Features: 10")
     print("Risk classification: Enabled")
-    print("URL: http://127.0.0.1:5000")
+    print("URL: http://127.0.0.1:5001")
     print("=" * 70)
 
     app.run(
         host="127.0.0.1",
-        port=5000,
+        port=5001,
         debug=True
     )
